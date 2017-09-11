@@ -11,14 +11,15 @@ Mosaic Wheel is a NativeScript-built iOS and Android app for managing your favor
 
 <h2 id="screenshots">Screenshots</h2>
 
-![](assets/screenshots/ios-1.png)
-![](assets/screenshots/ios-2.png)
-![](assets/screenshots/ios-3.png)
-![](assets/screenshots/ios-4.png)
+![](assets/ios-1.png)
+![](assets/ios-2.png)
+![](assets/ios-3.png)
+![](assets/ios-4.png)
 
-![](assets/screenshots/android-1.png)
-![](assets/screenshots/android-2.png)
-![](assets/screenshots/android-3.png)
+![](assets/android-1.png)
+![](assets/android-2.png)
+![](assets/android-3.png)
+![](assets/android-4.png)
 
 <h2 id="development">Development</h2>
 
