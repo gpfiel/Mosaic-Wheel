@@ -1,0 +1,12 @@
+<ActionBar>
+    <NavigationButton text="Back" (tap)="back()" android.systemIcon="ic_menu_back"></NavigationButton>
+    <Image class="mosaic-logo-intern" src="~/images/mosaic.png"></Image>
+    <ActionItem *ngIf="siteList.length > 1" text="Next" (tap)="nextPage()" ios.position="right"></ActionItem>
+    <ActionItem *ngIf="!siteList.length" text="New" (tap)="goToCreate()" ios.position="right"></ActionItem>
+</ActionBar>
+<GridLayout rows="*" columns="*">
+    <WebView row="0" col="0" [src]="webViewSrc"></WebView>
+    <!-- <WebView row="0" col="0" visibility="{{ isHidden ? 'collapsed' : 'visible' }}" [src]="webViewSrc2"></WebView> -->
+    <Label *ngIf="!siteList.length" text="No websites registered."></Label>
+    <Button *ngIf="!siteList.length" class="btn-new" text="Tap here to register" (tap)="goToCreate()"></Button>
+</GridLayout>

@@ -1,0 +1,30 @@
+ActionBar {
+    background-color: #301217;
+    color: white;
+}
+
+.mosaic-logo-intern {
+    width: 100px;
+    height: 40px;
+}
+
+.btn-new {
+    background-color: white;
+}
+
+.delete-button {
+    height: 40px;
+}
+
+.delete-container {
+    margin-top: 30%;
+    margin-right: 40px;
+}
+
+.container {
+    height: 100px;
+}
+
+.tap-target {
+    padding-left: 30px;
+}

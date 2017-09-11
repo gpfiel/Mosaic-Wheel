@@ -1,0 +1,40 @@
+ActionBar {
+    background-color: #301217;
+    color: white;
+}
+
+.mosaic-logo-intern {
+    width: 100px;
+    height: 40px;
+}
+
+.websize {
+    height: 100%;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360);
+    }
+}
+
+Image.intro {
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 300px;
+    width: 300px;
+    margin-top: 33%;
+}
+
+Label {
+    horizontal-align: center;
+}
+
+.btn-new {
+    margin-top: 10%;
+}

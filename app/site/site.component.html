@@ -1,0 +1,19 @@
+<ActionBar>
+    <NavigationButton text="Back" (tap)="back()" android.systemIcon="ic_menu_back"></NavigationButton>
+    <Image class="mosaic-logo-intern" src="~/images/mosaic.png"></Image>
+    <ActionItem text="New" (tap)="create()" ios.position="right"></ActionItem>
+</ActionBar>
+<ListView [items]="siteList">
+    <ng-template let-item="item">
+        <GridLayout columns="*, auto" class="container">
+            <StackLayout col="0" orientation="horizontal" class="tap-target" (tap)="show(item.url)">
+                <Label [text]="item.name + ' - ' + item.url "></Label>
+            </StackLayout>
+            <GridLayout col="1" class="delete-container" (tap)="delete(item)">
+                <StackLayout>
+                    <Image class="delete-button" src="~/images/delete.png"></Image>
+                </StackLayout>
+            </GridLayout>
+        </GridLayout>
+    </ng-template>
+</ListView>

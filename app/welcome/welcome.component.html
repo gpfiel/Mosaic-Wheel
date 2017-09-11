@@ -1,0 +1,9 @@
+<StackLayout class="page">
+    <ActionBar>
+    </ActionBar>
+    <Image class="mosaic-logo" src="~/images/mosaic.png"></Image>
+    <Image #logoMosaic *ngIf="loading" class="intro" src="~/images/wheel.png"></Image>
+    <Button *ngIf="!loading" (tap)="openSitesTap()" text="{{openSites}}" class="btn-welcome btn-welcome-open-sites"></Button>
+    <Button *ngIf="!loading" (tap)="checkSitesList()" text="{{listSites}}" class="btn-welcome btn-welcome-list-sites"></Button>
+    <Button *ngIf="!loading" (tap)="creatorInfo()" text="{{createdBy}}" class="btn-created-by"></Button>
+</StackLayout>

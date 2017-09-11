@@ -1,0 +1,53 @@
+.page {
+    /* background-color: lightgray; */
+    background-color: #301217;
+}
+
+.mosaic-logo {
+    margin-top: 20%;
+    height: 80px;
+    width: 300px;
+}
+
+.btn-welcome {
+    background-color: #FF5722;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn-welcome-open-sites {
+    margin: 20% 10% 0 10%;
+}
+
+.btn-welcome-list-sites {
+    margin: 5% 10% 0 10%;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360);
+    }
+}
+
+Image.intro {
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 300px;
+    width: 300px;
+    margin-top: 15%;
+}
+
+.btn-created-by {
+    margin-top: 10%;
+    color: white;
+    background-color: #301217;
+    border: 0px;
+    font-size: 12px;
+}

@@ -1,0 +1,44 @@
+.form {
+    background-color: #301217;
+}
+
+Label {
+    margin-left: 60px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+TextField {
+    background-color: white;
+    horizontal-align: center;
+    margin-bottom: 50px;
+    /* border-radius: 20px; */
+    padding: 20px;
+    width: 80%;
+}
+
+.label-top {
+    margin-top: 15%;
+}
+
+.container {
+    horizontal-align: center;
+}
+
+Button {
+    padding: 30px;
+    width: 80%;
+    /* margin-bottom: 10px; */
+}
+
+.cancel-btn {
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+}
+
+.save-btn {
+    margin-top: 5%;
+    background-color: #FF5722;
+    color: white;
+}

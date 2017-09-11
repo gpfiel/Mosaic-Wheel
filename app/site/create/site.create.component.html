@@ -1,0 +1,11 @@
+<ActionBar title="Create">
+    <NavigationButton text="Back" (tap)="back()" android.systemIcon="ic_menu_back"></NavigationButton>
+    <Image class="mosaic-logo-intern" src="~/images/mosaic.png"></Image>
+</ActionBar>
+<StackLayout class="form">
+    <Label text="Website" class="label-top"></Label>
+    <TextField class="form-input" hint="Name" [(ngModel)]="name"></TextField>
+    <Label text="URL"></Label>
+    <TextField class="form-input" hint="Url" [(ngModel)]="url"></TextField>
+    <Button text="Save" class="save-btn" (tap)="save()"></Button>
+</StackLayout>
